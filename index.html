@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pemesanan Menu Makanan via WhatsApp</title>
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f5f0f0 #0066cc ;
+        margin: 0;
+        padding: 20px;
+    }
+    header {
+         background-color: #007bff;
+         color: #fff;
+         padding: 20px 0;}
+
+
+    .container {
+        max-width: 1300px;
+        margin: auto;
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    h1 {
+        text-align: center;
+    }
+    .menu-item {
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+    .menu-item label {
+        flex: 1;
+    }
+    .menu-item select {
+        flex: 2;
+        padding: 5px;
+    }
+    .btn-submit {
+        display: block;
+        width: 100%;
+        padding: 20px;
+        margin-top: 20px;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    footer {
+         background-color: #f5f0f0;
+         color: #fff;
+         text-align: center;
+         padding: 20px}
+    .image-gallery {
+display: flex;
+justify-content: space-between; /* Untuk memberikan ruang yang sama antara gambar-gambar */
+}
+
+.image-gallery img {
+max-width: 30%; /* Atur lebar maksimum untuk gambar */
+height: auto; /* Biarkan ketinggian menyesuaikan agar proporsi gambar tetap */
+}
+
+        
+    
+
+</style>
+</head>
+
+<body>
+    
+
+<div class="container">
+    <h1>FR ZAHIRUL MA'ALA FEAT PRE-ORDER NOW!!</h1><br>
+    <section class="featured">
+        <div class="container">
+            <h2>Menu Unggulan</h2>
+            <div class="image-gallery">
+                <img src="image.jpg" alt="Gambar 1">
+                <img src="image1.jpg" alt="Gambar 2">
+                <img src="image2.jpg" alt="Gambar 3">
+            </div>
+        </div>
+    </section>
+
+
+    <form id="orderForm">
+        <div class="menu-item">
+            <label for="menu1">Menu 1:</label>
+            <select name="menu1" id="menu1">
+                <option value="" disabled selected>Pilih Menu 1</option>
+                <option value="Nasi Kulit Krispi">Nasi Kulit Krispi 17k</option>
+                <option value="Nasi Telur Krispi">Nasi Telur Krispi 17k</option> 
+                <option value="Nasi Ayam Geprek">Nasi Ayam Geprek 18k</option>
+                <option value="Nasi Uduk Telur">Nasi Uduk Telur 14k</option>
+                <option value="Nasi Uduk Tahu">Nasi Uduk Tahu 14k</option>
+                <option value="Nasi Kepal">Nasi kepal 8k</option>
+                <option value="Bakso Korea">Bakso Korea 13k</option>
+                <option value="Mercon Seger">Mercon Seger 17k</option>
+                <option value="Asinan Buah">Asinan Buah 15k</option>
+            
+                
+                <!-- Sisanya tetap sama -->
+            </select>
+        </div>
+        <div class="menu-item">
+            <label for="menu2">Menu 2:</label>
+            <select name="menu2" id="menu2">
+                <option value="" disabled selected>Pilih Menu 2</option>
+                
+            <option value="Piscok Lumer 4pcs">Piscok Lumer 4pcs 12k</option>
+            <option value="Martabak Telur">Martabak Telur 12k</option>
+            <option value="Maartabak Tahu">Martabak Tahu 12k</option>
+            <option value="Es Teh Jumbo {cup/botol}">Es Teh Jumbo {cup/botol} 7k</option>
+            <option value="Es Lemon Tea">Es Lemon Tea 7k</option>
+            <option value="Es Thai Tea">Es Thai Tea 8k</option>
+            <option value="Es Matcha">Es Matcha 8k</option>
+            <option value="Es Kul-kul Buah">Es Kul-kul Buah/pcs 4k</option>
+            <option value="Es Bubblegum">Es Bubblegum 8k</option>
+            
+
+                <!-- Sisanya tetap sama -->
+            </select>
+        </div>
+        <div class="menu-item">
+            <label for="menu3">Menu 3:</label>
+            <select name="menu3" id="menu3">
+                <option value="" disabled selected>Pilih Menu 3</option>
+
+            <option value="Nastar">Nastar 35k</option>
+            <option value="Sambal Cumi">Sambal Cumi 22k</option>
+            <option value="Sambal Ayam">Sambal Ayam 22k</option>
+            <option value="Risol Ayam">Risol Ayam   15k</option>
+            <option value="Kacang Mede">Kacang Mede 14k</option>
+            <option value="Cipol[Cilok Nampol]">Cipol [Cilok Nampol 10k]</option>
+            <option value="Bakso Kuah">Bakso Kuah 10k</option>
+            <option value="Otak-otak">Otak-otak 8k</option>
+            <option value="Cemilan">Cemilan 10k</option>
+            
+
+                <!-- Sisanya tetap sama -->
+            </select>
+        </div>
+        <body>
+            <h2> Metode Pembayaran</h2>
+            <p>Silakan pilih metode pembayaran yang tersedia:</p>
+            <ul>
+                <li>DANA-OVO-GoPay : 081225858050 
+                </li>
+                <li>Bank Jago      : Nomor Rekening: 508489581079 (Findi Kristiana Dewi S)
+                </li>
+                <li>Bank BNI       : Nomor Rekening: 1764437171 (Findi Kristiana Dewi S)
+                </li>
+            </ul>
+            <p>Silakan transfer ke salah satu nomor rekening di atas.Setelah melakukan pembayaran Mohon konfirmasi melalui WhatsApp dengan menyertakan bukti transfer dan nomor pesanan Anda .Terima kasih atas pembeliannya!</p>
+            </body>
+            
+        <div class="menu-item">
+            <label for="nama">Nama Pembeli :</label>
+            <input type="text" id="nama" name="nama">
+        </div>
+        <div class="menu-item">
+            <label for="alamat">Alamat Pembeli:</label>
+            <input type="text" id="alamat" name="alamat">
+        </div>
+        <button type="button" class="btn-submit" onclick="sendWhatsAppMessage()">Pesan via WhatsApp</button>
+    </form>
+</div>
+
+<footer>
+    <p>&copy; 2024 FR ZAHIRUL MA'ALA FEAT</p>
+</footer>
+
+<script>
+function sendWhatsAppMessage() {
+    var form = document.getElementById("orderForm");
+    var menu1 = form.elements["menu1"].value;
+    var menu2 = form.elements["menu2"].value;
+    var menu3 = form.elements["menu3"].value;
+    var namaPembeli = form.elements["nama"].value;
+    var alamat = form.elements["alamat"].value;
+
+    var message = "Terima kasih atas pesanan Anda, " + namaPembeli + "!\nBerikut detail pesanan Anda:\nMenu 1: " + menu1 + "\nMenu 2: " + menu2 + "\nMenu 3: " + menu3 + "\nAlamat pengiriman: " + alamat + "\n\nPesanan Anda akan segera kami proses.";
+;
+    var loveEmoji = "❤️";
+
+    // Ganti nomor WhatsApp sesuai kebutuhan
+    var phoneNumber = "6281225858050";
+    var url = "https://wa.me/" + phoneNumber + "?text=" + encodeURIComponent(message);
+    
+    window.open(url, '_blank');
+}
+</script>
+
+</body>
+</html>
